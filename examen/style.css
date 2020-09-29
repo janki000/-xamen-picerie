@@ -1,0 +1,92 @@
+body {
+    margin:0;
+  }
+  
+  .page1 {
+    background-color:#9cebd5;
+    width:100%;
+    height:100vh;
+  }
+  
+  .titre {
+    font-size:70px;
+    font-family:Georgia;
+    color:white;
+    text-align:center;
+    display:flex;
+    justify-content:center;
+    position:absolute;
+    left:50%;
+    top:30%;
+    transform: translate(-50%, -50%);
+    z-index:1;
+  }
+  
+  .grille {
+    display: flex;                       
+    flex-wrap: wrap;                     
+   justify-content: space-around;
+    align-items: center;
+     font-size:100px;
+    flex-basis:33%; 
+  }
+  .grille2 {
+    display: flex;                       
+    flex-wrap: wrap;                     
+   justify-content: space-around;
+    align-items: center;
+     font-size:100px;
+    flex-basis:33%; 
+  }
+  .grille3 {
+    display: flex;                       
+    flex-wrap: wrap;                     
+   justify-content: space-around;
+    align-items: center;
+     font-size:100px;
+    flex-basis:33%; 
+  }
+  
+  .crayon {
+    width:10%;
+    position: fixed;
+    left:0;
+    bottom:20px;
+    z-index:1;
+  }
+  
+  .myform {
+    background-color:#9cebd5;
+    padding:20px;
+    width:340px;
+    border-radius:10px;
+    display:flex;
+    justify-content:center;
+    position:absolute;
+    top:150%;
+    left:50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .form {
+    background-color:#E0AB94;
+    width:100%;
+    height:100vh;
+    display:flex;
+    justify-content:center;
+  }
+  
+  .btnAjouter {
+    width:100px;
+    height:40px;
+    border:none;
+    background-color:#EFEFEF;
+  }
+  
+  #choixA {
+    width:200px;
+    height:40px;
+    border:none;
+  }
+  
+  
